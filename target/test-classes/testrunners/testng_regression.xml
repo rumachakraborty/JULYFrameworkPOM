@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite guice-stage="DEVELOPMENT" name="Automation Regression Suite" thread-count="2" parallel="tests" verbose="3">
+
+  <test verbose="2" name="Login Page Test">
+    <classes>
+      <class name="com.qa.nc.tests.LoanPageTest"/>
+    </classes>
+  </test>
+  
+  
+  <test verbose="2" name="home Page Test">
+    <classes>
+      <class name="com.qa.nc.tests.HomePageTest"/>
+    </classes>
+  </test>  
+  
+  
+  
+</suite> 

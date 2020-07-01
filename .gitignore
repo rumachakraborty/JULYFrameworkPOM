@@ -1,0 +1,10 @@
+*.class
+*.jar
+*.war
+*.nar
+###############
+##Maven
+##################
+pom.xml.tag
+pom.xml.bak
+pom.xml.next

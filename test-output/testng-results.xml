@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Regression Suite" duration-ms="20687" started-at="2020-07-01T01:52:05Z" finished-at="2020-07-01T01:52:26Z">
+    <groups>
+    </groups>
+    <test name="Login Page Test" duration-ms="12499" started-at="2020-07-01T01:52:05Z" finished-at="2020-07-01T01:52:18Z">
+      <class name="com.qa.nc.tests.LoanPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.nc.tests.LoanPageTest@2b98378d]" name="setUp" is-config="true" duration-ms="8986" started-at="2020-07-01T07:22:05Z" finished-at="2020-07-01T07:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyResendActivationLinkTest()[pri:1, instance:com.qa.nc.tests.LoanPageTest@2b98378d]" name="VerifyResendActivationLinkTest" duration-ms="75" started-at="2020-07-01T07:22:14Z" finished-at="2020-07-01T07:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyResendActivationLinkTest -->
+        <test-method status="PASS" signature="verrifyLoginPageTitleTest()[pri:2, instance:com.qa.nc.tests.LoanPageTest@2b98378d]" name="verrifyLoginPageTitleTest" duration-ms="9" started-at="2020-07-01T07:22:14Z" finished-at="2020-07-01T07:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verrifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.nc.tests.LoanPageTest@2b98378d]" name="loginTest" duration-ms="2781" started-at="2020-07-01T07:22:14Z" finished-at="2020-07-01T07:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.nc.tests.LoanPageTest@2b98378d]" name="tearDown" is-config="true" duration-ms="629" started-at="2020-07-01T07:22:17Z" finished-at="2020-07-01T07:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.nc.tests.LoanPageTest -->
+    </test> <!-- Login Page Test -->
+    <test name="home Page Test" duration-ms="20687" started-at="2020-07-01T01:52:05Z" finished-at="2020-07-01T01:52:26Z">
+      <class name="com.qa.nc.tests.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.nc.tests.HomePageTest@77caeb3e]" name="setup" is-config="true" duration-ms="20600" started-at="2020-07-01T07:22:05Z" finished-at="2020-07-01T07:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.qa.nc.tests.HomePageTest@77caeb3e]" name="verifyHomePageTitle" duration-ms="14" started-at="2020-07-01T07:22:26Z" finished-at="2020-07-01T07:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="verifyHomePageHeader()[pri:2, instance:com.qa.nc.tests.HomePageTest@77caeb3e]" name="verifyHomePageHeader" duration-ms="71" started-at="2020-07-01T07:22:26Z" finished-at="2020-07-01T07:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeader -->
+      </class> <!-- com.qa.nc.tests.HomePageTest -->
+    </test> <!-- home Page Test -->
+  </suite> <!-- Automation Regression Suite -->
+</testng-results>
